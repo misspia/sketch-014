@@ -74,7 +74,6 @@ export  class SmokeParticle {
   }
 
   updateRadius() {
-    // console.debug(this.yMax, this.position.y, this.yMax - this.position.y)
     this.radius = utils.remap(
       this.yMin,
       this.yMax,
